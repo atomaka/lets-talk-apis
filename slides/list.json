@@ -1,1 +1,10 @@
-["index.md"]
+[
+    "index.md",
+    "what-is-an-api.md",
+    "make-it-restful.md",
+    "rest-constraints.md",
+    "rest-on-the-web.md",
+    "a-restful-example.md",
+    "resources.md",
+    "other-talks.md"
+]
