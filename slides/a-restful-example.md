@@ -1,6 +1,6 @@
 ##  A RESTful Example
 
-Simple sample
+[Simple example](http://lets-talk-apis.herokuapp.com/jokes)
 
 * List: GET /jokes
 * Create: POST /jokes
