@@ -10,6 +10,7 @@ Simple sample
 
 note:
 
-curl --data 'joke[joke]=Why did the chicken get to the other side&joke[punchline]=To get to the other side' http://localhost:9292/jokes
-curl -X PUT --data 'joke[joke]=New Joke&joke[punchline]=Punchline' http://localhost:9292/jokes/1
-curl -X DELETE http://localhost:9292/jokes/1
+curl http://lets-talk-apis.herokuapp.com/jokes
+curl -X POST --data 'joke[joke]=Why did the chicken get to the other side&joke[punchline]=To get to the other side' http://lets-talk-apis.herokuapp.com/jokes
+curl -X PUT --data 'joke[joke]=New Joke&joke[punchline]=Punchline' http://lets-talk-apis.herokuapp.com/jokes/1
+curl -X DELETE http://lets-talk-apis.herokuapp.com/jokes/1
